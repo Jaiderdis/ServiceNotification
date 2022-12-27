@@ -46,7 +46,7 @@ namespace TransaccionNotificationService
             {
                 band = true;
                 Connection con = new Connection();
-                con.ExecStoredProcedure(oDatosTransaccionEntities);
+                con.ExecStoedProcedure(oDatosTransaccionEntities);
                 
                 Notification oNotification = new Notification(oDatosTransaccionEntities);
                 
